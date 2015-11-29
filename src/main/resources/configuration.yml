@@ -1,0 +1,40 @@
+###################################
+##### PreludeUtilities Config #####
+###################################
+
+###################################
+#####    Database Settings    #####
+###################################
+database:
+  enabled: true
+  address: "localhost"
+  port: 3306
+  username: "username"
+  password: "password"
+
+###################################
+#####       Player Homes      #####
+###################################
+enabled: true
+command: ["home"]
+permission: "preludeutilities.home"
+
+###################################
+#####     Random Teleport     #####
+###################################
+enabled: true
+command: ["rt", "randomtp", "rtp"]
+permission: "preludeutilities.randomteleporter"
+
+###################################
+#####    Cross Server Sync    #####
+###################################
+enabled: true
+serverName: "server0"
+
+###################################
+#####  Miscellaneous Commands #####
+###################################
+tpposEnabled: true
+backEnabled: true
+tpaEnabled: true

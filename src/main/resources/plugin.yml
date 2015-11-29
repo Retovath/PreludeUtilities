@@ -1,0 +1,8 @@
+name: PreludeUtilities
+main: net.willsr71.preludeutilities.PreludeUtilities
+version: 1.0-DEV
+description: The something something for stuff and things.
+author: Willsr71
+website: http://willsr71.net/
+commands: []
+permissions: []
