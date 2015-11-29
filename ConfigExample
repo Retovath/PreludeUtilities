@@ -1,0 +1,38 @@
+database:
+  Enabled: true/false
+  Address: localhost
+  Port: 3306
+  UN: example
+  PW: example
+  Database: example
+###############
+# Player Data #
+###############
+ Use MySQL Database: true/false
+#######################
+# Player Homes Module #
+#######################
+Enabled: true/false
+Command: /home
+Permission Node: preludeutilities.home.multiple.{HomeAmountName}
+ Member: 2
+ Patron: 4
+###############################
+# Random Teleportation Module #
+###############################
+Enabled: true/false
+Command: /rt, /randomtp, /rtp
+Permission Node: preludeutilities.randomteleporter
+####################################
+# Cross Server Command Sync Module #
+####################################
+Enabled: true/false
+  Server Name: example
+##################
+# Other Commands #
+##################
+/tppos
+/back
+/rtp
+/tpa
+/sync
